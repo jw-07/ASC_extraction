@@ -1,8 +1,9 @@
 # ASC_extraction
 
  Our paper, "Efficient Attributed Scattering Center Extraction Using Gradient-Based Optimization for SAR Image", has been accepted for publication in **IEEE Antennas and Wireless Propagation Letters (AWPL)**.
+ ![Paper](https://img.shields.io/badge/paper-IEEE_AWPL-B31B1B.svg)(https://ieeexplore.ieee.org/document/11126995)
 
-This repository contains the official PyTorch implementation of our work. 
+This repository contains the official PyTorch implementation of our work. If you find our work useful in your research, please consider giving this repository a star ⭐.
 
 ## Overview
 ![Flowchart of our method](fig/GBASC.png)
@@ -34,5 +35,19 @@ our approach significantly enhances the extraction speed. For the T72 target, th
     python ASC_extract_multi_file_loop_zh.py
     ```
  3.  **Result:**
-    The extracted results are saved in the `./result/` directory.  
+    The extracted results are saved in the `./result/` directory.
+
+If you find our work useful for your research, we would appreciate you citing our paper:
+
+```bibtex
+@ARTICLE{11126995,
+  author={Luan, Jiawei and Huang, Xuejun and Ding, Jinshan},
+  journal={IEEE Antennas and Wireless Propagation Letters}, 
+  title={Efficient Attributed Scattering Center Extraction Using Gradient-Based Optimization for SAR Image}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/LAWP.2025.3599562}}
+
 
