@@ -28,13 +28,14 @@ our approach significantly enhances the extraction speed. For the T72 target, th
     Place your SAR echo data files into the `./data/` directory. The input should be `.mat` files.
 
     For the MSTAR/SAMPLE datasets, echo signals should be obtained by performing zero-padding removal and Taylor window processing, and stored in variable `specRmZeroAndWin`.
+    （Data preprocessing code reference `./get_no_window_echo_in_MATLAB/` directory.）
 
-2.  **Run Extraction:**
+3.  **Run Extraction:**
     Execute the main script to start the ASC extraction process.
     ```bash
     python ASC_extract_multi_file_loop_zh.py
     ```
- 3.  **Result:**
+ 4.  **Result:**
     The extracted results are saved in the `./result/` directory.
 
 
