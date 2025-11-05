@@ -52,9 +52,9 @@ If you find our work useful for your research, we would appreciate you citing ou
   journal={IEEE Antennas and Wireless Propagation Letters}, 
   title={Efficient Attributed Scattering Center Extraction Using Gradient-Based Optimization for SAR Image}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-5},
+  volume={24},
+  number={10},
+  pages={3634-3638},
   doi={10.1109/LAWP.2025.3599562}}
 
 
